@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background: hsl(204, 43%, 93%);
+}
+
+main {
+ margin: 2rem;
+ margin-top: 4rem;
+ padding: auto;
+ font-family: 'Karla', sans-serif;
+ font-weight: 400;
+ display: grid;
+ grid-template-columns: 1fr;
+}
+
+.container {
+ width: 100%;
+}
+
+.container p {
+ font-weight: 700;
+ opacity: 0.3;
+}
+
+.top {
+ background: rgb(255, 255, 255);
+ padding: 0.75rem;
+ border-top-right-radius: 0.5rem;
+ border-top-left-radius: 0.5rem;
+}
+
+.top > * {
+ margin-bottom: 1rem;
+ font-size: 1rem;
+}
+
+.top h1 {
+ color: hsl(179, 62%, 43%);
+ margin-top: 0.75rem;
+}
+
+.top h3 {
+ color: hsl(71, 73%, 54%);
+}
+
+.top p {
+ font-size: 0.85rem;
+}
+
+.left > * {
+ margin-bottom: 1rem;
+ font-size: 1rem;
+}
+
+.left {
+ background: hsl(179, 62%, 43%);
+ padding: 0.75rem;
+ color: white;
+}
+
+.left h1 {
+ margin-top: 0.75rem;
+}
+
+.left h2 {
+ font-size: 2rem;
+}
+
+.left span {
+ opacity: 0.35;
+ font-size: 1rem;
+}
+
+.left p {
+ opacity: 0.8;
+ margin-bottom: 1.75rem;
+}
+
+.left button {
+ background: hsl(71, 73%, 54%);
+ color: white;
+ width: 100%;
+ padding: 1rem;
+ font-family: 'Karla', sans-serif;
+ font-weight: 700;
+ border: none;
+ border-radius: 0.35rem;
+}
+
+button:hover {
+ background: transparent;
+ color: hsl(71, 73%, 54%);
+ outline: 2px solid hsl(71, 73%, 54%);
+}
+
+.right > * {
+ margin-bottom: 1rem;
+ font-size: 1rem;
+}
+
+.right h1 {
+ margin-top: 0.75rem;
+}
+
+.right {
+ background: hsl(179, 50%, 51%);
+ padding: 0.75rem;
+ color: white;
+ border-bottom-right-radius: 0.5rem;
+ border-bottom-left-radius: 0.5rem;
+}
+
+.right p {
+ opacity: 0.55;
+ line-height: 1.5;
+}
+
+.attribution { 
+ font-size: 11px; 
+ text-align: center; 
+}
+
+.attribution a { 
+ color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (min-width: 380px) {
+ main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 768px;
+  margin: 3rem auto;
+ }
+
+ .top {
+  grid-column: span 2;
+  padding: 2rem;
+ }
+
+ .top h1 {
+  font-size: 1.75rem;
+ }
+
+ .top h3 {
+  font-size: 1.35rem;
+ }
+
+ .top p {
+ font-size: 1.25rem;
+}
+
+ .left {
+  padding: 2rem;
+  border-bottom-left-radius: 0.5rem;
+ }
+
+ .right {
+  padding: 2rem 3rem;
+  border-bottom-left-radius: 0;
+ }
+}
+
+/* @media screen and (min-width: 800px) {
+ main {
+  max-width: 1440px;
+ }
+} */
+
