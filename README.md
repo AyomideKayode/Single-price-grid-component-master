@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/AyomideKayode/Single-price-grid-component-master)
+- Live Site URL: [](https://keen-frangollo-1aace1.netlify.app)
 
 
 ### Built with
@@ -45,7 +45,6 @@ Users should be able to:
 - Website - [Ayomide Kayode](https://github.com/AyomideKayode)
 - Frontend Mentor - [@AyomideKayode](https://www.frontendmentor.io/profile/AyomideKayode)
 - Twitter - [@kazzy_wiz](https://twitter.com/kazzy_wiz)
-
 
 # Single-price-grid-component-master
 # Single-price-grid-component-master
