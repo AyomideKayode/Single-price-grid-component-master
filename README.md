@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/AyomideKayode/Single-price-grid-component-master)
-- Live Site URL: [](https://keen-frangollo-1aace1.netlify.app)
+- Solution URL: [(https://github.com/AyomideKayode/Single-price-grid-component-master)]
+- Live Site URL: [(https://keen-frangollo-1aace1.netlify.app)]
 
 
 ### Built with
